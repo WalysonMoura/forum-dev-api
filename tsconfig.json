@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["ES2023"],
-    "module": "node16",
+    "module": "CommonJS",
     "target": "ES2022",
     "sourceMap": true,
     "outDir": "./dist",
@@ -26,5 +26,6 @@
     "strict": true,
     "resolveJsonModule": true,
     "strictPropertyInitialization": false
+    // "allowImportingTsExtensions": true,
   }
 }
