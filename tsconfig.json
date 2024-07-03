@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["ES2023"],
-    "module": "CommonJS",
+    "module": "commonjs",
     "target": "ES2022",
     "sourceMap": true,
     "outDir": "./dist",
@@ -22,10 +22,8 @@
       "@/*": ["./src/*"],
       "@test/*": ["./test/*"]
     },
-    "types": ["multer"],
     "strict": true,
-    "resolveJsonModule": true,
-    "strictPropertyInitialization": false
-    // "allowImportingTsExtensions": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true
   }
 }
