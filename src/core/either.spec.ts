@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 
-import { Either, left, right } from './either.ts'
+import { Either, left, right } from './either'
 
 function doSomeThing(shouldSucess: boolean): Either<string, number> {
   if (shouldSucess) {
