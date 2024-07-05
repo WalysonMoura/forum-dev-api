@@ -20,7 +20,6 @@ const redis: Redis = new Redis({
   db: env.REDIS_DB,
   retryStrategy: (times) => Math.min(times * 50, 2000),
   maxRetriesPerRequest: 1,
-  lazyConnect: true,
   enableReadyCheck: false,
   enableOfflineQueue: false,
   enableAutoPipelining: true,

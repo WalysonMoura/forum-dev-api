@@ -10,7 +10,7 @@
     "start": "nest start -b swc -w",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
+    "start:prod": "node dist/src/infra/main  ",
     "commit": "cz",
     "commit:ai": "oco",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -41,6 +41,7 @@
     "dayjs": "^1.11.11",
     "dotenv": "^16.4.5",
     "ioredis": "^5.4.1",
+    "pm2": "^5.4.1",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
     "zod": "^3.23.8"
