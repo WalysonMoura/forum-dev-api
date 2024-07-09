@@ -1,1 +1,3 @@
-export abstract class QuestionsAttachmentRepository {}
+export abstract class QuestionsAttachmentRepository {
+  abstract deleteManyByQuestionId(questionId: string): Promise<void>
+}
